@@ -1,0 +1,1 @@
+web: gunicorn booth_backend.wsgi:application

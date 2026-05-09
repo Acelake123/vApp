@@ -1,0 +1,14 @@
+{
+  "name": "vapp",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "booth",
+    "booth_backend"
+  ],
+  "dependencies": {
+    "date-fns": "^4.1.0",
+    "date-fns-tz": "^3.2.0"
+  }
+}

@@ -1,0 +1,43 @@
+services:
+  - type: web
+    name: booth-backend
+    env: python
+    plan: free
+    buildCommand: "pip install -r requirements.txt && python manage.py collectstatic --noinput && python manage.py migrate"
+    startCommand: "gunicorn booth_backend.wsgi:application"
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11"
+      - key: DEBUG
+        value: "False"
+      - key: SECRET_KEY
+        generateValue: true
+      - key: ALLOWED_HOSTS
+        sync: false
+      - key: CORS_ALLOWED_ORIGINS
+        sync: false
+      - key: DB_ENGINE
+        value: "django.db.backends.postgresql"
+      - key: DB_HOST
+        fromDatabase:
+          name: booth-db
+          property: host
+      - key: DB_NAME
+        fromDatabase:
+          name: booth-db
+          property: database
+      - key: DB_USER
+        fromDatabase:
+          name: booth-db
+          property: user
+      - key: DB_PASSWORD
+        fromDatabase:
+          name: booth-db
+          property: password
+      - key: DB_PORT
+        value: "5432"
+
+databases:
+  - name: booth-db
+    plan: free
+    ipAllowList: []
