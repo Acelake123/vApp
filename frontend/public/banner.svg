@@ -1,0 +1,202 @@
+<svg width="900" height="280" viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>vApp — Decentralized Voting Platform on Solana</title>
+<desc>Project banner for vApp, a decentralized voting platform built on the Solana blockchain</desc>
+
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="900" y2="280" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#0d1117"/>
+    <stop offset="60%" stop-color="#0f1b2d"/>
+    <stop offset="100%" stop-color="#0d1117"/>
+  </linearGradient>
+  <linearGradient id="tg" x1="55" y1="0" x2="265" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#ffffff"/>
+    <stop offset="100%" stop-color="#14F195"/>
+  </linearGradient>
+  <linearGradient id="al" x1="55" y1="0" x2="250" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#14F195"/>
+    <stop offset="100%" stop-color="#9945FF"/>
+  </linearGradient>
+  <pattern id="dp" x="0" y="0" width="35" height="35" patternUnits="userSpaceOnUse">
+    <circle cx="17.5" cy="17.5" r="0.8" fill="#ffffff" opacity="0.1"/>
+  </pattern>
+  <clipPath id="lp"><rect x="0" y="0" width="528" height="280"/></clipPath>
+  <clipPath id="fc"><rect width="900" height="280" rx="12"/></clipPath>
+</defs>
+
+<!-- Background -->
+<rect width="900" height="280" rx="12" fill="url(#bg)"/>
+<rect width="900" height="280" rx="12" fill="url(#dp)" clip-path="url(#fc)"/>
+
+<!-- Green halo (left) -->
+<circle cx="80" cy="140" r="170" fill="#14F195" opacity="0.022" clip-path="url(#fc)"/>
+<circle cx="80" cy="140" r="90" fill="#14F195" opacity="0.035" clip-path="url(#fc)">
+  <animate attributeName="opacity" values="0.025;0.065;0.025" dur="3s" repeatCount="indefinite"/>
+</circle>
+
+<!-- Purple halo (right) -->
+<circle cx="820" cy="140" r="170" fill="#9945FF" opacity="0.022" clip-path="url(#fc)"/>
+<circle cx="820" cy="140" r="90" fill="#9945FF" opacity="0.03" clip-path="url(#fc)">
+  <animate attributeName="opacity" values="0.02;0.055;0.02" dur="4s" repeatCount="indefinite"/>
+</circle>
+
+<!-- Floating particles (left panel only) -->
+<g clip-path="url(#lp)">
+  <circle cx="90" cy="235" r="2" fill="#14F195" opacity="0">
+    <animate attributeName="opacity" values="0;0.7;0.6;0" dur="3s" begin="0s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0;-8 -80" dur="3s" begin="0s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="162" cy="250" r="1.5" fill="#9945FF" opacity="0">
+    <animate attributeName="opacity" values="0;0.65;0" dur="3.5s" begin="0.7s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0;5 -82" dur="3.5s" begin="0.7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="248" cy="242" r="2.5" fill="#ffffff" opacity="0">
+    <animate attributeName="opacity" values="0;0.4;0" dur="4s" begin="1.4s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0;10 -88" dur="4s" begin="1.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="335" cy="253" r="1.5" fill="#14F195" opacity="0">
+    <animate attributeName="opacity" values="0;0.7;0" dur="3.2s" begin="0.3s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0;-5 -72" dur="3.2s" begin="0.3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="422" cy="245" r="2" fill="#9945FF" opacity="0">
+    <animate attributeName="opacity" values="0;0.6;0" dur="3.8s" begin="1.8s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0;8 -79" dur="3.8s" begin="1.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="500" cy="252" r="1.5" fill="#14F195" opacity="0">
+    <animate attributeName="opacity" values="0;0.5;0" dur="2.9s" begin="0.9s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0;-3 -67" dur="2.9s" begin="0.9s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="132" cy="260" r="2" fill="#ffffff" opacity="0">
+    <animate attributeName="opacity" values="0;0.4;0" dur="4.2s" begin="2.1s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0;7 -90" dur="4.2s" begin="2.1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="380" cy="258" r="1.5" fill="#14F195" opacity="0">
+    <animate attributeName="opacity" values="0;0.6;0" dur="3.6s" begin="1.1s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0;-10 -74" dur="3.6s" begin="1.1s" repeatCount="indefinite"/>
+  </circle>
+</g>
+
+<!-- Dashed divider -->
+<line x1="530" y1="22" x2="530" y2="258" stroke="#30363d" stroke-width="0.5" stroke-dasharray="4 7"/>
+
+<!-- ===== LEFT: TEXT CONTENT ===== -->
+
+<!-- Big title -->
+<text x="55" y="97"
+  font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif"
+  font-size="66" font-weight="700" fill="url(#tg)" letter-spacing="-2">vApp</text>
+
+<!-- Animated accent underline -->
+<rect x="55" y="109" width="0" height="2.5" rx="1.25" fill="url(#al)">
+  <animate attributeName="width" from="0" to="192" dur="1.2s" begin="0.3s" fill="freeze"/>
+</rect>
+
+<!-- Subtitle -->
+<text x="55" y="145"
+  font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif"
+  font-size="17" font-weight="600" fill="#e6edf3" letter-spacing="0.2">Decentralized Voting Platform on Solana</text>
+
+<!-- Tagline -->
+<text x="55" y="169"
+  font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif"
+  font-size="13" fill="#8b949e" font-style="italic" letter-spacing="0.8">Transparent  ·  Trustless  ·  Tamper-proof</text>
+
+<!-- Nav links -->
+<text x="55" y="200" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" fill="#14F195">Getting Started</text>
+<text x="170" y="200" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" fill="#4a5568"> · </text>
+<text x="184" y="200" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" fill="#14F195">Features</text>
+<text x="237" y="200" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" fill="#4a5568"> · </text>
+<text x="251" y="200" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" fill="#14F195">Tech Stack</text>
+<text x="316" y="200" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" fill="#4a5568"> · </text>
+<text x="330" y="200" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" fill="#14F195">Contributing</text>
+
+<!-- Tech Badges -->
+<rect x="55" y="218" width="84" height="25" rx="4" fill="#0e0e0e" stroke="#333" stroke-width="0.8"/>
+<text x="97" y="235" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="#ffffff" text-anchor="middle">▲ Next.js</text>
+
+<rect x="147" y="218" width="68" height="25" rx="4" fill="#0c4b33" stroke="#166534" stroke-width="0.8"/>
+<text x="181" y="235" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="#4ade80" text-anchor="middle">Django</text>
+
+<rect x="223" y="218" width="68" height="25" rx="4" fill="#071c14" stroke="#14F195" stroke-width="0.8"/>
+<text x="257" y="235" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="#14F195" text-anchor="middle">Solana</text>
+
+<rect x="299" y="218" width="55" height="25" rx="4" fill="#1c0a00" stroke="#b45309" stroke-width="0.8"/>
+<text x="326" y="235" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="#f97316" text-anchor="middle">Rust</text>
+
+<rect x="362" y="218" width="50" height="25" rx="4" fill="#0c1a2e" stroke="#1d4ed8" stroke-width="0.8"/>
+<text x="387" y="235" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="#60a5fa" text-anchor="middle">MIT</text>
+
+<!-- ===== RIGHT: BLOCKCHAIN NETWORK VISUAL ===== -->
+<!-- Center: (720, 130) -->
+
+<!-- Outer spinning dashed ring -->
+<circle cx="720" cy="130" r="108" fill="none" stroke="#9945FF" stroke-width="0.5" stroke-dasharray="3 9" opacity="0.35">
+  <animateTransform attributeName="transform" type="rotate" from="0 720 130" to="360 720 130" dur="40s" repeatCount="indefinite"/>
+</circle>
+
+<!-- Inner spinning dashed ring (reverse) -->
+<circle cx="720" cy="130" r="62" fill="none" stroke="#14F195" stroke-width="0.5" stroke-dasharray="2 7" opacity="0.3">
+  <animateTransform attributeName="transform" type="rotate" from="0 720 130" to="-360 720 130" dur="25s" repeatCount="indefinite"/>
+</circle>
+
+<!-- Outer orbit group: 4 purple nodes, r=90, clockwise 18s -->
+<g>
+  <line x1="720" y1="130" x2="810" y2="130" stroke="#9945FF" stroke-width="0.6" opacity="0.2"/>
+  <line x1="720" y1="130" x2="720" y2="40"  stroke="#9945FF" stroke-width="0.6" opacity="0.2"/>
+  <line x1="720" y1="130" x2="630" y2="130" stroke="#9945FF" stroke-width="0.6" opacity="0.2"/>
+  <line x1="720" y1="130" x2="720" y2="220" stroke="#9945FF" stroke-width="0.6" opacity="0.2"/>
+  <circle cx="810" cy="130" r="11" fill="#9945FF" opacity="0.07"/>
+  <circle cx="720" cy="40"  r="11" fill="#9945FF" opacity="0.07"/>
+  <circle cx="630" cy="130" r="11" fill="#9945FF" opacity="0.07"/>
+  <circle cx="720" cy="220" r="11" fill="#9945FF" opacity="0.07"/>
+  <circle cx="810" cy="130" r="7" fill="#1a0030" stroke="#9945FF" stroke-width="1.5"/>
+  <circle cx="720" cy="40"  r="7" fill="#1a0030" stroke="#9945FF" stroke-width="1.5"/>
+  <circle cx="630" cy="130" r="7" fill="#1a0030" stroke="#9945FF" stroke-width="1.5"/>
+  <circle cx="720" cy="220" r="7" fill="#1a0030" stroke="#9945FF" stroke-width="1.5"/>
+  <circle cx="810" cy="130" r="2" fill="#9945FF"/>
+  <circle cx="720" cy="40"  r="2" fill="#9945FF"/>
+  <circle cx="630" cy="130" r="2" fill="#9945FF"/>
+  <circle cx="720" cy="220" r="2" fill="#9945FF"/>
+  <animateTransform attributeName="transform" type="rotate" from="0 720 130" to="360 720 130" dur="18s" repeatCount="indefinite"/>
+</g>
+
+<!-- Inner orbit group: 3 green nodes, r=55, counter-clockwise 10s -->
+<g>
+  <line x1="720" y1="130" x2="720" y2="75"  stroke="#14F195" stroke-width="0.8" opacity="0.35"/>
+  <line x1="720" y1="130" x2="768" y2="157" stroke="#14F195" stroke-width="0.8" opacity="0.35"/>
+  <line x1="720" y1="130" x2="672" y2="157" stroke="#14F195" stroke-width="0.8" opacity="0.35"/>
+  <circle cx="720" cy="75"  r="12" fill="#14F195" opacity="0.07"/>
+  <circle cx="768" cy="157" r="12" fill="#14F195" opacity="0.07"/>
+  <circle cx="672" cy="157" r="12" fill="#14F195" opacity="0.07"/>
+  <circle cx="720" cy="75"  r="7" fill="#041a10" stroke="#14F195" stroke-width="1.5"/>
+  <circle cx="768" cy="157" r="7" fill="#041a10" stroke="#14F195" stroke-width="1.5"/>
+  <circle cx="672" cy="157" r="7" fill="#041a10" stroke="#14F195" stroke-width="1.5"/>
+  <circle cx="720" cy="75"  r="2.5" fill="#14F195">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="768" cy="157" r="2.5" fill="#14F195">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" begin="0.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="672" cy="157" r="2.5" fill="#14F195">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="1.8s" begin="1s" repeatCount="indefinite"/>
+  </circle>
+  <animateTransform attributeName="transform" type="rotate" from="0 720 130" to="-360 720 130" dur="10s" repeatCount="indefinite"/>
+</g>
+
+<!-- Center rings (pulsing) -->
+<circle cx="720" cy="130" r="33" fill="#0d1117" stroke="#14F195" stroke-width="0.8" opacity="0.2">
+  <animate attributeName="r" values="30;39;30" dur="2.5s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0.15;0.45;0.15" dur="2.5s" repeatCount="indefinite"/>
+</circle>
+<circle cx="720" cy="130" r="25" fill="#071c14" stroke="#14F195" stroke-width="1.2">
+  <animate attributeName="opacity" values="0.55;0.9;0.55" dur="2s" begin="0.3s" repeatCount="indefinite"/>
+</circle>
+<circle cx="720" cy="130" r="17" fill="#0a2818" stroke="#14F195" stroke-width="1.5">
+  <animate attributeName="opacity" values="0.8;1;0.8" dur="1.5s" repeatCount="indefinite"/>
+</circle>
+
+<!-- Checkmark icon in center -->
+<path d="M712 131 l5.5 5.5 l10-11.5" fill="none" stroke="#14F195" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+<!-- Outer border -->
+<rect width="900" height="280" rx="12" fill="none" stroke="#21262d" stroke-width="1"/>
+</svg>
