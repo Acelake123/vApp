@@ -213,7 +213,7 @@ A big thanks to the communities and teams that made this possible:
 <div align="center">
 
 
-Made with ❤️ by [Acelake123](https://github.com/Acelake123)
+Made with ❤️ by [Acelake123](https://github.com/Acelake123) & Team
 
 ⭐ Star this repo if you find it useful!
 
