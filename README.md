@@ -1,23 +1,11 @@
 <div align="center">
 
-# 🗳️ vApp
+<img src="https://github.com/Acelake123/vApp/blob/6b3b08b4d02e653f22eadb3edc252eb49519d47d/frontend/public/banner.svg" alt="vApp — Decentralized Voting Platform on Solana" width="100%"/>
 
-### Decentralized Voting Platform on Solana
-
-*Transparent. Trustless. Tamper-proof.*
-
-[![Next.js](https://img.shields.io/badge/Next.js-13.4+-000000?style=for-the-badge&logo=next.js)](https://nextjs.org/)
-[![Django](https://img.shields.io/badge/Django-4.2-092E20?style=for-the-badge&logo=django)](https://www.djangoproject.com/)
-[![Solana](https://img.shields.io/badge/Solana-14F195?style=for-the-badge&logo=solana&logoColor=black)](https://solana.com/)
-[![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust)](https://www.rust-lang.org/)
-[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
-
-<br/>
+<br/><br/>
 
 > vApp is a full-stack decentralized voting platform built on the Solana blockchain.  
 > Create polls, cast votes, and view results — all on-chain, in real time.
-
-[Getting Started](#-getting-started) · [Features](#-features) · [Tech Stack](#%EF%B8%8F-tech-stack) · [Contributing](#-contributing)
 
 </div>
 
@@ -227,7 +215,10 @@ A big thanks to the communities and teams that made this possible:
 
 <div align="center">
 
-Made with ❤️ by [Acelake123](https://github.com/Acelake123)
+<img src="banner.svg" alt="vApp — Decentralized Voting Platform on Solana" width="100%"/>
+
+
+Made with ❤️ by [vikas90244](https://github.com/vikas90244)
 
 ⭐ Star this repo if you find it useful!
 
