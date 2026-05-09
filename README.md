@@ -80,7 +80,7 @@ Make sure you have the following installed before continuing:
 **1. Clone the repository**
 
 ```bash
-git clone https://github.com/vikas90244/vApp.git
+git clone https://github.com/Acelake123/vApp.git
 cd vApp
 ```
 
@@ -198,8 +198,6 @@ git commit -m 'feat: describe your feature'
 git push origin feature/your-feature
 ```
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for full guidelines.
-
 ---
 
 ## 🙏 Acknowledgments
@@ -209,16 +207,13 @@ A big thanks to the communities and teams that made this possible:
 - 🟣 **Solana Team** — for the blazing-fast blockchain platform
 - ⚛️ **Next.js Community** — for the powerful React framework
 - 🐍 **Django Community** — for the reliable backend framework
-- 💙 All contributors and early testers
 
 ---
 
 <div align="center">
 
-<img src="banner.svg" alt="vApp — Decentralized Voting Platform on Solana" width="100%"/>
 
-
-Made with ❤️ by [vikas90244](https://github.com/vikas90244)
+Made with ❤️ by [Acelake123](https://github.com/Acelake123)
 
 ⭐ Star this repo if you find it useful!
 
